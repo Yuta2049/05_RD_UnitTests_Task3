@@ -3,9 +3,10 @@ package edu.epam.izhevsk.junit;
 import java.math.BigDecimal;
 
 public class PaymentController {
-    private AccountService accountService;
-    private DepositService depositService;
 
+    private AccountService accountService;
+
+    private DepositService depositService;
 
     public PaymentController(AccountService accountService, DepositService depositService) {
         this.accountService = accountService;
